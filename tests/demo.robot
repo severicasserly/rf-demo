@@ -13,7 +13,7 @@ Eficode Has A DevOps Consultant Position Open In Helsinki
 *** Keywords***
 Open Eficode Webpage
     New Browser    headless=${FALSE}
-    Sleep    10s
+    Sleep    30s
     New Page    https://eficode.com/fi
     Click    id=hs-eu-confirmation-button
     Sleep    10s
