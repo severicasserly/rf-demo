@@ -8,7 +8,7 @@ jobs:
       - run: chmod 777 reports
       - uses: isbang/compose-action@v1.3.2
         with:
-          up-flags: "--abort-on-container-exit --exit-code-from robot"
+          up-flags: "--abort-on-container-exit"
       - name: Upload test results
         uses: actions/upload-artifact@v1
         if: always()
