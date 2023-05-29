@@ -14,7 +14,7 @@ Eficode Has A DevOps Consultant Position Open In Helsinki
 Open Eficode Webpage
     New Browser    headless=${FALSE}
     Sleep    30s
-    New Page    https://eficode.com/fi
+    New Page    https://eficode.com/
     Click    id=hs-eu-confirmation-button
     Sleep    10s
 
@@ -23,7 +23,8 @@ Click Navigation Button
     Click    xpath=//ul[@id="cd-primary-nav"]/li/a[text()="${text}"]
 
 Navigate To Careers In Helsinki
-    Click Navigation Button    Ura
+    Click Navigation Button    Career
+    Sleep    3s
     Click    id=cd-primary-nav >> text=Helsinki
     Switch Page    NEW
     Sleep    1s
