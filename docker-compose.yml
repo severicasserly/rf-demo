@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  robot:
+    image: ppodgorsek/robot-framework
+    volumes:
+      - ./reports:/opt/robotframework/reports
+      - ./tests:/opt/robotframework/tests
+    network_mode: host

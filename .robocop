@@ -1,0 +1,4 @@
+--format "{source_rel}:{line}:{col} [{severity}] {rule_id} {desc} ({name})"
+--report all
+
+--exclude missing-doc-keyword,missing-doc-test-case,missing-doc-suite
